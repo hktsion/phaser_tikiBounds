@@ -1,0 +1,1 @@
+var bootState = {    create: function () {        this.game.stage.backgroundColor = "#42424e";        setTimeout(function () {            this.game.state.start("preload");        }, 3000);    }};
